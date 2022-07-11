@@ -3,11 +3,11 @@
     padding: 0;
     border: 0;
     color: aliceblue;
-    
 }
 
 .full-screen{
-    height: 100vh;
+    min-height: 100%;
+    padding-bottom: 50px;
 }
 
 h1,h2,h3,h4{
@@ -46,9 +46,20 @@ code{
     border: 2px solid black;
     padding: 10px;
     background-color:aquamarine;
-    color: black;
 }
 
 .first{
     margin-left: 10%;
+}
+
+.comparing{
+    color: red;
+}
+
+.found{
+    color: green;
+}
+
+.text-input{
+    color: black;
 }
